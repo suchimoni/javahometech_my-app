@@ -15,7 +15,7 @@ spec:
         app: democicd
     spec:
       containers:
-      - name: my-app
+      - name: java-app
         image: suchimoni/java-app:latest
         ports:
         - containerPort: 8080
